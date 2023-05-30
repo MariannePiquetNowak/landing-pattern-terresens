@@ -1,0 +1,93 @@
+{
+    "header": {
+        "links": {
+            "1": "LE FILM",
+            "2": "LA DEMEURE D'IO",
+            "3": "LA DESTINATION", 
+            "4": "LE PLACEMENT"
+        },
+        "button": "Être contacté",
+        "title": "Devenez propriétaire à Saint-Pierre-D'Oléron"
+    }, 
+    "form_section": {
+        "title_1": "La Demeure D'IO,",
+        "title_2": "Une résidence secondaire* qui rapporte grâce à la CRT Terrésens",
+        "asterisk": "*Sous gestion locative", 
+        "form": {
+            "title": "Vous souhaitez des informations sur cette résidence ?",
+            "subtitle": "Une fois les informations recueillies, vous recevrez la brochure commerciale et le guide du placement.",
+            "lastname": "Nom",
+            "firstname": "Prénom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "zipcode": "Code postal",
+            "rgpd": "En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées par Terrésens dans le cadre de ma demande d'information et de la relation commerciale qui peut en découler.",
+            "button": "Envoyer"
+        }
+    },
+    "movie" : {
+        "category": "DECOUVREZ LE FILM",
+        "title": "Un emplacement idéal",
+        "description": "Située à deux pas du centre-ville de Saint Pierre d’Oléron, La Demeure d’IO est une résidence intimiste à taille humaine, dont la douceur est le maître-mot. Sa situation géographique idéale, permet de profiter de l’ambiance village et des commerces de proximité."
+    },
+    "residence": {
+        "category": "LA DEMEURE D'IO",
+        "title": "Une résidence unique au cœur de Saint-Pierre d’Oléron",
+        "li": {
+            "1": "Appartements du T2 au T5",
+            "2": "Prestations de standing",
+            "3": "Piscine intérieure chauffée et espace bien-être",
+            "4": "Parking sous-sol avec pré-équipements pour véhicules électriques",
+            "5": "Local à vélo et caves individuelles"
+        }
+    },
+    "destination": {
+        "category": "LA DESTINATION",
+        "title": "Oléron, entre Terre et Mer",
+        "description": {
+            "1": "Située dans le golfe de Gascogne, l’Ile d’Oléron est réputée pour ses superbes plages de sable fin, sa nature envoûtante ainsi que son riche patrimoine culturel.",
+            "2": "Célébrée par Pierre Loti, elle est surnommée « Oléron la lumineuse » en raison de son fort taux d’ensoleillement tout au long de l’année.",
+            "3": "Si Oléron, est une terre de lumière, elle est aussi riche en couleur et contraste, sa principale caractéristique est probablement son aspect sauvage."
+        }
+    },
+    "investment": {
+        "category": "LE PLACEMENT QUI FAIT DU BIEN",
+        "title": "Découvrez la CRT Terrésens ©, la résidence secondaire* qui rapporte !",
+        "list": {
+            "1": "Liberté d’occupation propriétaire**",
+            "2": "Revenus locatifs quand vous n’y séjournez pas",
+            "3": "Prestations de standing",
+            "4": "Avantages fiscaux***"
+        },
+        "asterisk": {
+            "1": "(*) Sous gestion locative",
+            "2": "(**) Pour un maximum de 182 jours par an et dans le cadre de l’acquisition d’un logement meublé proposant des services para-hôteliers.",
+            "3": "(***) Récupération de TVA: Art. 261 D 4e /Art 271 I et Art 271 IV du CGI : récupération de la TVA acquise par 20ème dans le cadre de l’acquisition d’un logement meublé proposant des services para-hôteliers."
+        }
+    }, 
+    "contact": {
+        "text": "Vous souhaitez en savoir plus sur ce programme ?",
+        "title": "Contactez-nous !"
+    },
+    "terresens": {
+        "subtitle": "Spécialiste de l’immobilier mer et montagne depuis 2008",
+        "promotion": {
+            "title": "Promotion",
+            "text": "Des emplacements exceptionnels à forte valeur locative. Ski aux pieds, centre du village"
+        },
+        "marketing": {
+            "title": "Commercialisation",
+            "text": "Une offre immobilière haut de gamme, clé en main et direct promoteur"
+        }, 
+        "exploitation": {
+            "title": "Exploitation",
+            "text": "Un service de gestion dédié à l’exploitation des résidences pour le compte des propriétaires"
+        }
+    },
+    "connect": "Restez connecté à Terrésens",
+    "footer": {
+        "copyright": "Terrésens © 2023 Tous droits réservés",
+        "info": "Illustration à caractère d’ambiance non contractuelle. RCS Lyon 501 580 211 19bis place Tolozan 69001 Lyon"
+    }
+    
+}

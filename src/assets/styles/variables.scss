@@ -1,0 +1,35 @@
+/*|---------------| App Color Schema|---------------*/
+// $mountain: #BABABA;
+// $sea: #BDA788;
+$season-color: #BDA788; // Variable to change with the season
+$blue-main: #36789E;
+$blue-light: #2E94B0;
+$white: #f1f1f1;
+$black: #000000;
+$gray: #878787;
+
+/*|---------------| FONTS SIZE |---------------*/
+$text-sm: 16px;
+$text-md: 18px;
+$text-lg: 19px;
+$text-xl: 21px;
+
+$title-sm: 25px;
+$title-md: 27px;
+$title-lg: 32px;
+$title-xl: 35px; 
+
+/*|---------------| BREAKPOINTS|---------------*/
+
+// Usage example:  @media screen and (min-width: $BREAKPOINT-DESK) { ... }
+
+$mobile-min: 320px;
+$tablet-min: 481px;
+$laptop-min: 769px;
+$desktop-min: 1024px;
+$desktop-xl-min: 1201px;
+
+$mobile-max: 480px;
+$tablet-max: 768px;
+$laptop-max: 1023px;
+$desktop-max: 1200px;

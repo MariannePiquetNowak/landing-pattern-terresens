@@ -1,0 +1,154 @@
+#Navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #BABABA;
+
+  img {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+  }
+
+  div {
+    .list {
+      list-style-type: none;
+      background: #BABABA;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding: 0;
+
+      &__items {
+        font-size: $text-xl;
+        text-transform: uppercase;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+
+        a {
+          display: block;
+          text-decoration: none;
+          width: 100%;
+          padding: 0.8em 0;
+          color: #fff;
+          font-weight: bold;
+
+          &:hover {
+            background-color: $season-color;
+            color: $white;
+          }
+        }
+      }
+
+      &__button {
+        padding: 0.5em 2.5em;
+        background-color: $season-color;
+        border-radius: 50px;
+        margin: 0.5em 0;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        a {
+          color: $white;
+          font-weight: 500;
+          font-size: $text-md;
+          text-decoration: none;
+        }
+        &:hover {
+          background-color: $blue-light;
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      padding: 0.5em 0;
+      button {
+        border: none;
+        margin: 0 0.3em;
+        color: white;
+        background-color: transparent;
+        font-size: $text-xl;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: $season-color;
+        }
+      }
+    }
+  }
+
+  .btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+    border: none;
+    background: none;
+  }
+}
+
+@media screen and (min-width: $laptop-max) {
+  #Navbar {
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+
+    img {
+      width: auto;
+      height: auto;
+      margin: 1em 2em;
+    }
+
+    .container-list {
+      display: flex;
+      flex-direction: column-reverse !important;
+      align-items: flex-end;
+      width: 100%;
+
+      .list {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        max-width: $laptop-max;
+        background-color: transparent;
+
+        &__items {
+          width: auto;
+          a {
+            font-size: $text-sm !important;
+            transition: color 0.2s ease-in-out;
+            &:hover {
+              background-color: transparent;
+              color: $season-color;
+            }
+          }
+        
+        }
+      }
+      .buttons {
+        justify-content: flex-end;
+        margin: 0 2em;
+        button:hover {
+          background-color: transparent;
+          color: $season-color;
+        }
+      }
+      
+    }
+    .btn {
+      display: none;
+    }
+  }
+  
+}
